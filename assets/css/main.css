@@ -60,7 +60,7 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
@@ -609,7 +609,7 @@ section {
 .about h3 {
   font-weight: 700;
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: var(--font-secondary);
 }
 
@@ -1874,7 +1874,7 @@ section {
   width: 100%;
   position: relative;
   background: var(--color-primary);
-  padding: 60px 0 0 0;
+  padding: 4px 0 0 0;
 }
 
 @media (min-width: 1365px) {
@@ -1886,14 +1886,14 @@ section {
 .hero h2 {
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #fff;
 }
 
 .hero p {
   color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .hero .btn-get-started {
