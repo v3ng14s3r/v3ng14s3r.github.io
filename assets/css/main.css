@@ -238,7 +238,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: rgb(2, 68, 251);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
