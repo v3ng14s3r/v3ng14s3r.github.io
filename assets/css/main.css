@@ -55,7 +55,9 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
-
+.video-wrapper {
+  overflow: hidden; /* This ensures the border radius applies to the video as well */
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -70,7 +72,8 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 35px;
+  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 .section-header h2 {
