@@ -60,7 +60,7 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 20px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
@@ -309,7 +309,7 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 16px;
   margin: 0;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -643,6 +643,7 @@ section {
 .about .content ul li {
   padding: 0 0 10px 30px;
   position: relative;
+  font-size: 22px;
 }
 
 .about .content ul i {
@@ -1457,6 +1458,14 @@ section {
   text-align: center;
 }
 
+.pricing h2 {
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #555555;
+  text-align: center;
+}
+
 .pricing .icon {
   margin: 30px auto 30px auto;
   width: 70px;
@@ -1500,7 +1509,7 @@ section {
 }
 
 .pricing h4 {
-  font-size: 48px;
+  font-size: 32px;
   color: var(--color-secondary);
   font-weight: 700;
   font-family: var(--font-secondary);
@@ -1509,12 +1518,12 @@ section {
 }
 
 .pricing h4 sup {
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .pricing h4 span {
   color: rgba(108, 117, 125, 0.8);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -1530,11 +1539,13 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .pricing ul i {
   color: #059652;
-  font-size: 24px;
+  font-size: 36px;
   padding-right: 3px;
 }
 
@@ -1579,6 +1590,11 @@ section {
   }
 }
 
+.description-price {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions Section
 --------------------------------------------------------------*/
@@ -1884,16 +1900,18 @@ section {
 }
 
 .hero h2 {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 62px;
+  font-weight: 800;
   margin-bottom: 10px;
   color: #fff;
 }
 
 .hero p {
   color: rgba(255, 255, 255, 0.9);
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 30px;
   margin-bottom: 20px;
+  letter-spacing: 0.1rem;
 }
 
 .hero .btn-get-started {
@@ -2671,5 +2689,23 @@ section {
   color: #fff;
 }
 /*--------------------------------------------------------------
-# Carousel
+# Custom img
 --------------------------------------------------------------*/
+.custom-img {
+  max-height: 300px;
+}
+
+/*--------------------------------------------------------------
+# Custom section
+--------------------------------------------------------------*/
+.custom-section {
+  padding-bottom: 5px;
+  
+}
+.custom-text ul li {
+  font-size: 24px;
+}
+
+.custom-text p {
+  font-size: 20px;
+}
