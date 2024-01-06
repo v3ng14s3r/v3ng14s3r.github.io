@@ -748,7 +748,7 @@ section {
 }
 
 .clients .swiper {
-  padding: 10px 0;
+  padding: 0px 0;
 }
 
 .clients .swiper-slide img {
@@ -1025,7 +1025,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  /* width: 90px; */
   border-radius: 50px;
   margin-right: 15px;
 }
@@ -2715,12 +2715,18 @@ section {
 }
 
 .custom-img-ts {
-  max-height: 400px;
+  max-height: 500px;
 }
  #testimonials-wp {
 
  }
-/*--------------------------------------------------------------
+
+ .carousel-item {
+  transition: 1.5s ease-in-out;
+
+}
+
+ /*--------------------------------------------------------------
 # Custom section
 --------------------------------------------------------------*/
 .custom-section {
